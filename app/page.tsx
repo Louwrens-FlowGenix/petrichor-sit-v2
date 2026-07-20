@@ -91,7 +91,13 @@ function Tools() {
         </p>
         <div className="flex flex-wrap items-center gap-x-12 gap-y-4">
           {site.tools.map((t) => (
-            <div key={t.name} className="flex items-center gap-3" title={t.note}>
+            <div
+              key={t.name}
+              className={`flex items-center gap-3 ${
+                t.name === "SimplePay" ? "rounded-md bg-green-950 px-3 py-2" : ""
+              }`}
+              title={t.note}
+            >
               {/* Drop the official brand SVGs into /public/logos — see README */}
               <img src={t.src} alt={t.name} className="h-6 w-auto" loading="lazy" />
             </div>

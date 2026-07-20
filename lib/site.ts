@@ -48,7 +48,7 @@ export const site = {
   },
   tools: [
     { name: "Xero", src: "/logos/xero.png", note: "Cloud accounting" },
-    { name: "SimplePay", src: "/logos/simplepay.svg", note: "Payroll" },
-    { name: "CaseWare", src: "/logos/caseware.svg", note: "Financial statements" },
+    { name: "SimplePay", src: "/logos/simplepay.png", note: "Payroll" },
+    { name: "CaseWare", src: "/logos/caseware.png", note: "Financial statements" },
   ],
 } as const;
