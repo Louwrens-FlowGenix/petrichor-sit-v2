@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-stone-50 text-green-950 font-sans antialiased;
+    font-feature-settings: "ss01" on;
+  }
+  ::selection {
+    @apply bg-green-800 text-stone-50;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply font-display;
+    text-wrap: balance;
+  }
+  /* Visible keyboard focus, quiet mouse focus */
+  :focus-visible {
+    @apply outline-none ring-2 ring-ochre-500 ring-offset-2 ring-offset-stone-50;
+  }
+}
+
+@layer components {
+  .wrap {
+    @apply mx-auto max-w-wrap px-5 sm:px-8;
+  }
+  .eyebrow {
+    @apply font-mono text-[0.72rem] uppercase tracking-[0.18em] text-ochre-600;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-[0.95rem] font-medium transition-colors duration-200;
+  }
+  .btn-primary {
+    @apply btn bg-green-800 text-stone-50 hover:bg-green-900;
+  }
+  .btn-ghost {
+    @apply btn border border-green-800/25 text-green-900 hover:border-green-800 hover:bg-green-800/5;
+  }
+  .hairline {
+    @apply border-t border-green-950/10;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
