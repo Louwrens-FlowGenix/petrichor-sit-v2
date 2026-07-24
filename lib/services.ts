@@ -140,7 +140,7 @@ export const services: Service[] = [
     faqs: [
       {
         q: "When must my business register for VAT?",
-        a: "Registration is compulsory once taxable supplies exceed R1 million in any consecutive 12-month period; voluntary registration is possible from R50,000. Whether voluntary registration helps or hurts depends on your customers and cost base — we assess it case by case.",
+        a: "From 1 April 2026, registration is compulsory once taxable supplies exceed R2.3 million in any consecutive 12-month period. Voluntary registration is possible from R120,000. Whether voluntary registration helps or hurts depends on your customers and cost base — we assess it case by case.",
       },
       {
         q: "Can you fix a mess with SARS?",
