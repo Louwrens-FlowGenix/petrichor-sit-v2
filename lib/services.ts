@@ -224,7 +224,7 @@ export const services: Service[] = [
       },
       {
         heading: "The filings that keep you alive",
-        text: "Every company must file a CIPC annual return in its anniversary month and keep its beneficial ownership register current — both now enforced with real consequences, up to deregistration. As part of a retainer we track these dates and file on time, every year.",
+        text: "Every company must file a CIPC annual return in its anniversary month and keep its beneficial ownership register current — both now enforced with real consequences, up to deregistration. We can track these dates and file on time, every year; CIPC work is quoted and billed separately from our accounting retainers.",
       },
       {
         heading: "Fixing a lapsed company",
@@ -242,7 +242,7 @@ export const services: Service[] = [
       },
       {
         q: "Can you act as our ongoing company secretary?",
-        a: "For most small companies, our retainer covers the statutory essentials: annual returns, registers, and changes as they arise. Larger governance needs are scoped separately.",
+        a: "We can assist with ongoing company-secretarial and CIPC work, but it is not included in our accounting retainer. Annual returns, registers and changes are scoped and billed separately.",
       },
     ],
   },
