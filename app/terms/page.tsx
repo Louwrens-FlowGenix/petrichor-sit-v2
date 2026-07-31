@@ -53,7 +53,7 @@ export default function Terms() {
           <p className="mt-3">
             The content, design and branding of this website belong to{" "}
             {site.legalName} unless otherwise indicated. Third-party product
-            names and logos (including Xero, SimplePay and CaseWare) are the
+            names and logos (including Fintura, Xero, SimplePay and CaseWare) are the
             trademarks of their respective owners and are used to indicate the
             software we work in, not any endorsement.
           </p>

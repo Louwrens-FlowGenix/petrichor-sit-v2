@@ -47,6 +47,7 @@ export const site = {
     },
   },
   tools: [
+    { name: "Fintura", src: "/logos/fintura.png", note: "Financial management" },
     { name: "Xero", src: "/logos/xero.png", note: "Cloud accounting" },
     { name: "SimplePay", src: "/logos/simplepay.png", note: "Payroll" },
     { name: "CaseWare", src: "/logos/caseware.png", note: "Financial statements" },
