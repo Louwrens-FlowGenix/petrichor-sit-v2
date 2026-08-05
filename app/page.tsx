@@ -102,11 +102,16 @@ function Tools() {
                   href="https://fintura.io/?ref=&ref=finsilva64"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={className}
+                  className={`${className} h-8 w-[136px] cursor-pointer`}
                   title={t.note}
                   aria-label="Visit Fintura"
                 >
-                  <img src={t.src} alt={t.name} className="h-6 w-auto" loading="lazy" />
+                  <img
+                    src={t.src}
+                    alt={t.name}
+                    className="pointer-events-none h-6 w-auto"
+                    loading="lazy"
+                  />
                 </a>
               );
             }
