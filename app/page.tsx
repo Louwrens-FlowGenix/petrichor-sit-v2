@@ -90,18 +90,33 @@ function Tools() {
           We work in
         </p>
         <div className="flex flex-wrap items-center gap-x-12 gap-y-4">
-          {site.tools.map((t) => (
-            <div
-              key={t.name}
-              className={`flex items-center gap-3 ${
-                t.name === "SimplePay" ? "rounded-md bg-green-950 px-3 py-2" : ""
-              }`}
-              title={t.note}
-            >
-              {/* Drop the official brand SVGs into /public/logos — see README */}
-              <img src={t.src} alt={t.name} className="h-6 w-auto" loading="lazy" />
-            </div>
-          ))}
+          {site.tools.map((t) => {
+            const className = `flex items-center gap-3 ${
+              t.name === "SimplePay" ? "rounded-md bg-green-950 px-3 py-2" : ""
+            }`;
+
+            if (t.name === "Fintura") {
+              return (
+                <a
+                  key={t.name}
+                  href="https://fintura.io/?ref=&ref=finsilva64"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={className}
+                  title={t.note}
+                  aria-label="Visit Fintura"
+                >
+                  <img src={t.src} alt={t.name} className="h-6 w-auto" loading="lazy" />
+                </a>
+              );
+            }
+
+            return (
+              <div key={t.name} className={className} title={t.note}>
+                <img src={t.src} alt={t.name} className="h-6 w-auto" loading="lazy" />
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>
