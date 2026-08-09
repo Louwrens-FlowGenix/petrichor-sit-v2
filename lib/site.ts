@@ -21,7 +21,7 @@ export const site = {
   },
   social: {
     linkedin: "https://www.linkedin.com/company/petrichor-consult/",
-    instagram: "https://www.instagram.com/petrichor_consult",
+    instagram: "https://www.instagram.com/petrichorconsult/",
     facebook: "https://www.facebook.com/profile.php?id=61578128152465",
   },
   founder: {
