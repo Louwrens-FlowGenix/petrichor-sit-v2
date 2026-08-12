@@ -12,15 +12,19 @@ export default function Footer() {
         <div>
           <div className="flex items-center gap-3">
             <Image
-              src="/images/logo-mark.png"
+              src="/images/petrichor-logo-mark.png"
               alt=""
               width={80}
               height={70}
               className="h-10 w-auto"
             />
-            <span className="font-display text-xl text-stone-50">
-              Petrichor Consulting
-            </span>
+            <Image
+              src="/images/petrichor-wordmark.png"
+              alt="Petrichor Consulting"
+              width={1200}
+              height={430}
+              className="h-10 w-auto"
+            />
           </div>
           <p className="mt-5 max-w-sm text-sm leading-relaxed text-stone-300">
             A remote-first South African accounting firm for startups and

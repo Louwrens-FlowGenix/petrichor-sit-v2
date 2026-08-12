@@ -53,7 +53,7 @@ function JsonLd() {
     name: site.name,
     legalName: site.legalName,
     url: site.url,
-    logo: `${site.url}/images/logo-mark.png`,
+    logo: `${site.url}/images/petrichor-logo-mark.png`,
     image: `${site.url}/images/og.png`,
     description: site.description,
     email: site.email,

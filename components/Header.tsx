@@ -19,16 +19,20 @@ export default function Header() {
       <div className="wrap flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center gap-3" aria-label="Petrichor Consulting — home">
           <Image
-            src="/images/logo-mark.png"
+            src="/images/petrichor-logo-mark.png"
             alt="Petrichor Consulting"
             width={80}
             height={80}
-            className="h-9 w-auto"
+            className="h-10 w-auto"
             priority
           />
-          <span className="hidden font-display text-lg text-green-900 sm:inline">
-            Petrichor Consulting
-          </span>
+          <Image
+            src="/images/petrichor-wordmark.png"
+            alt="Petrichor Consulting"
+            width={1200}
+            height={430}
+            className="hidden h-8 w-auto sm:block"
+          />
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex" aria-label="Primary">
