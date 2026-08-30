@@ -13,6 +13,7 @@ export const site = {
     encodeURIComponent(
       "Hi Petrichor Consulting, I'd like to enquire about your services."
     ),
+  calendly: "https://calendly.com/louwrens-petrichor-consult/30min",
   address: {
     locality: "Somerset West",
     region: "Western Cape",

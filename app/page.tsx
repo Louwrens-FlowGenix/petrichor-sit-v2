@@ -55,9 +55,14 @@ function Hero() {
             decide with — from R2,500/month.
           </p>
           <div className="mt-9 flex flex-wrap gap-3">
-            <Link href="/#contact" className="btn-primary">
-              Book a consultation
-            </Link>
+            <a
+              href={site.calendly}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary"
+            >
+              Book a 30-minute video call
+            </a>
             <Link href="/#services" className="btn-ghost">
               Explore services
             </Link>
@@ -99,7 +104,7 @@ function Tools() {
               return (
                 <a
                   key={t.name}
-                  href="https://fintura.io/?ref=&ref=finsilva64"
+                  href="https://www.fintura.io/?ref=FINSILVA64&_go=finsilva64"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={`${className} h-8 w-[136px] cursor-pointer`}
@@ -406,6 +411,14 @@ function Contact() {
             night. We reply to every enquiry, usually within one business
             day.
           </p>
+          <a
+            href={site.calendly}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-primary mt-6 inline-flex"
+          >
+            Book a 30-minute video call
+          </a>
           <dl className="mt-8 space-y-5 text-sm">
             <div>
               <dt className="font-mono text-xs uppercase tracking-[0.18em] text-stone-400">Email</dt>
