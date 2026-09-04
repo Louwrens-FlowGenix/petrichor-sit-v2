@@ -12,14 +12,14 @@ export default function Footer() {
         <div>
           <div className="flex items-center gap-3">
             <Image
-              src="/images/petrichor-logo-mark.png"
+              src="/images/petrichor-logo-mark-mono.png"
               alt=""
               width={80}
               height={70}
               className="h-10 w-auto"
             />
             <Image
-              src="/images/petrichor-wordmark.png"
+              src="/images/petrichor-wordmark-mono.png"
               alt="Petrichor Consulting"
               width={1200}
               height={430}
