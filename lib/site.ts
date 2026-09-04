@@ -46,6 +46,10 @@ export const site = {
       src: "/logos/xero-l2-badge.png",
       alt: "Xero Level 2 Certified Professional partner badge",
     },
+    saipa: {
+      src: "/logos/saipa.png",
+      alt: "SAIPA — South African Institute of Professional Accountants member",
+    },
   },
   tools: [
     { name: "Fintura", src: "/logos/fintura.png", note: "Financial management" },

@@ -201,12 +201,20 @@ function Founder() {
               </li>
             ))}
           </ul>
-          <img
-            src={site.badges.xeroL2.src}
-            alt={site.badges.xeroL2.alt}
-            className="mt-5 h-16 w-auto"
-            loading="lazy"
-          />
+          <div className="mt-5 flex items-center gap-4">
+            <img
+              src={site.badges.xeroL2.src}
+              alt={site.badges.xeroL2.alt}
+              className="h-16 w-auto"
+              loading="lazy"
+            />
+            <img
+              src={site.badges.saipa.src}
+              alt={site.badges.saipa.alt}
+              className="h-16 w-auto"
+              loading="lazy"
+            />
+          </div>
           <div className="mt-6 space-y-5 leading-relaxed text-stone-500">
             <p>
               Louwrens founded Petrichor Consulting to give small businesses
