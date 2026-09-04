@@ -1,0 +1,10 @@
+{
+  "name": "Petrichor Consulting (Next.js)",
+  "install": "npm ci",
+  "terminals": [
+    {
+      "name": "dev",
+      "command": "npm run dev"
+    }
+  ]
+}
