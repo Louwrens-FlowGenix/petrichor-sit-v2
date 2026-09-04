@@ -31,6 +31,13 @@ export default function Footer() {
             growing businesses. Where new beginnings flourish.
           </p>
           <SocialLinks className="mt-6" />
+          <Image
+            src="/logos/saipa-mono.png"
+            alt="Member of the South African Institute of Professional Accountants (SAIPA)"
+            width={6231}
+            height={1100}
+            className="mt-8 h-10 w-auto"
+          />
         </div>
 
         <nav aria-label="Services">
