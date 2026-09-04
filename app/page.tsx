@@ -96,9 +96,15 @@ function Tools() {
         </p>
         <div className="flex min-w-0 flex-1 flex-wrap items-center justify-end gap-x-8 gap-y-4">
           {site.tools.map((t) => {
-            const className = `flex items-center gap-3 ${
-              t.name === "SimplePay" ? "rounded-md bg-green-950 px-3 py-2" : ""
-            }`;
+            const className = "flex items-center gap-3";
+            // Optically balance the marks against the Fintura wordmark:
+            // the compact Xero and Draftworx logos are rendered larger.
+            const imgClass =
+              t.name === "Xero"
+                ? "h-11 w-auto"
+                : t.name === "Draftworx"
+                ? "h-9 w-auto"
+                : "h-6 w-auto";
 
             if (t.name === "Fintura") {
               return (
@@ -123,7 +129,7 @@ function Tools() {
 
             return (
               <div key={t.name} className={className} title={t.note}>
-                <img src={t.src} alt={t.name} className="h-6 w-auto" loading="lazy" />
+                <img src={t.src} alt={t.name} className={imgClass} loading="lazy" />
               </div>
             );
           })}
