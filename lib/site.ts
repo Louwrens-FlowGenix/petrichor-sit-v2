@@ -52,5 +52,6 @@ export const site = {
     { name: "Xero", src: "/logos/xero.png", note: "Cloud accounting" },
     { name: "SimplePay", src: "/logos/simplepay.png", note: "Payroll" },
     { name: "CaseWare", src: "/logos/caseware.png", note: "Financial statements" },
+    { name: "Draftworx", src: "/logos/draftworx.png", note: "Financial statements" },
   ],
 } as const;
