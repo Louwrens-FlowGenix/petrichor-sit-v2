@@ -94,7 +94,7 @@ function Tools() {
         <p className="font-mono text-xs uppercase tracking-[0.18em] text-stone-500">
           We work in
         </p>
-        <div className="flex flex-wrap items-center gap-x-12 gap-y-4">
+        <div className="flex min-w-0 flex-1 flex-wrap items-center justify-end gap-x-8 gap-y-4">
           {site.tools.map((t) => {
             const className = `flex items-center gap-3 ${
               t.name === "SimplePay" ? "rounded-md bg-green-950 px-3 py-2" : ""
